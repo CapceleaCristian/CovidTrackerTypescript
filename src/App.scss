@@ -1,0 +1,10 @@
+.app-container {
+  &__head-img {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 300px;
+    }
+  }
+}
