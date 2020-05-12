@@ -1,0 +1,11 @@
+.card-container {
+  &__confirmed {
+    border-bottom: 15px solid rgba($color: blue, $alpha: 0.5);
+  }
+  &__recovered {
+    border-bottom: 15px solid rgba($color: green, $alpha: 0.5);
+  }
+  &__deaths {
+    border-bottom: 15px solid rgba($color: red, $alpha: 0.5);
+  }
+}
